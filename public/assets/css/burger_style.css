@@ -1,0 +1,13 @@
+.burgerName{
+    text-align: left;
+
+}
+
+#top-bar{
+    color: orangered;
+    font-family: 'Bangers', cursive;
+}
+
+#enter_text{
+    padding: 20px;
+}
