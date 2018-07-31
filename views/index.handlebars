@@ -1,7 +1,8 @@
-<div class="container">
+<div class="container-fluid">
 
-    <div id="top-bar" class="jumbotron">
-        <h1>Eat the burger!</h1>
+    <div id="top-bar">
+        
+        <h1><img src="/assets/img/burger_icon.jpeg" alt="burger" height="125" width="125">Eat the burger! <img src="/assets/img/burger_icon.jpeg" alt="burger" height="125" width="125"></h1>
     </div>
     <div class="task">
 
@@ -13,7 +14,7 @@
             <form method="POST" action="/burgers/update?_method=PUT" class="button-size">
                 <input type="hidden" name="burger_id" type="text" value={{this.id}}>
                 <br>
-                <button type="submit" class="btn btn-default btn-warning" data-status={{devoured}}>Devour it!</button>
+                <button type="submit" class="btn btn-default btn-warning" id="devour" data-status={{devoured}}>Devour it!</button>
             </form>
 
             {{/unless}} {{/each}}

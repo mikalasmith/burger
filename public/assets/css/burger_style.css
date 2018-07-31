@@ -1,13 +1,38 @@
 .burgerName{
-    text-align: left;
-
+    font-family: 'Actor', sans-serif;
+    padding-bottom: none;
 }
+
+
 
 #top-bar{
-    color: orangered;
+    color: white;
     font-family: 'Bangers', cursive;
+    background-color: orangered;
+    text-align: center;
+    opacity: 0.9;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-radius: 5px;
 }
 
+.btn{
+   margin-bottom: 20px;
+}
+
+.task{
+    padding-top: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 90px;
+}
+
+img {
+    display: inline-block;
+
+}
 #enter_text{
     padding: 20px;
 }
