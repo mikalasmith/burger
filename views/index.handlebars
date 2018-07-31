@@ -24,9 +24,9 @@
             {{#each burger_data}} {{#if this.devoured}}
             <input class="form-control" type="text" placeholder="{{this.id}}.{{this.burger_name}}" readonly> {{/if}} {{/each}}
         </div>
-</div>
 
-<div class="container">
+
+{{!-- <div class="container"> --}}
     <div class="row">
         <div class="text-center enter_section">
             <form action="/burgers/create" method="POST">
@@ -36,4 +36,5 @@
             <p>Enter in a burger you would like to eat!</p>
         </div>
     </div>
+{{!-- </div> --}}
 </div>
